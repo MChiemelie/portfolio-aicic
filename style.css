@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cascadia Code", sans-serif;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+}
+
+#logo {
+  font-weight: 900;
+  font-size: xx-large;
+  font-family: "Nunito", sans-serif;
+}
+
+ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  border: 0;
+  background-color: skyblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+a[id="blog"] {
+  text-decoration: underline;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+#hero-img {
+  width: 300px;
+  border-radius: 150px;
+}
+
+header > h1  {
+  font-size: 40px;
+}
+
+header > p {
+  text-align: center;
+}
+
+/* p {
+  color: green;
+  font-family: "Cascadia Code", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li{
+  font-style: italic;
+}
+a {
+  font-size: 40px;
+  font-family: "Cascadia Code", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+} */
