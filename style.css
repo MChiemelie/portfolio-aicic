@@ -104,7 +104,7 @@ div[id="social-images"] {
   gap: 40px;
 }
 
-#social{
+.social{
   width: 200px;
   height: 200px;
   background-color: azure;
