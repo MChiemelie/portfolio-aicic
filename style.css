@@ -8,6 +8,15 @@
   font-size: clamp(1.5rem, 2vw, 1.6rem);
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
 nav {
   display: flex;
   width: 90vw;
@@ -19,32 +28,32 @@ nav {
 
 #logo {
   font-weight: 900;
-  font-size: xx-large;
+  font-size: clamp(0.5rem, 2vw, 0.85rem);
   font-family: "Nunito", sans-serif;
 }
 
-ul {
+nav > ul {
   width: 40%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-li {
-  list-style-type: none;
+nav > ul > li {
+  display: flex;
+}
+
+nav > ul > li > a {
+  font-size: clamp(0.25rem, 2vw, 0.65rem);
 }
 
 button {
   padding: 0.5rem;
   border-radius: 0.25rem;
   border: 0;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   background-color: orange;
   color: white;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }
 
 header {
@@ -108,7 +117,6 @@ h2 {
 
 #project {
   background-color: rgb(238, 235, 235);
-
 }
 
 #project > h2 {
